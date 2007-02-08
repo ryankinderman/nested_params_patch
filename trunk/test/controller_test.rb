@@ -1,3 +1,12 @@
+# NOTE:
+# This test case illustrates the high-level issues solved by the plugin. The unit tests that are 
+# not commented out are the ones that demonstrate correct behavior. 
+# 
+# The unit tests that *are* commented out demonstrate the incorrect behavior that was fixed. To 
+# see the incorrect behavior demonstrated, comment out the contents of /init.rb and uncomment out 
+# the unit tests starting with test_incorrect*, then run those tests. Be sure to put everything
+# back to the way it was after you're done poking around, though :)
+
 ENV['NO_INIT'] = 'true'
 require File.join(File.dirname(__FILE__), '../test_init')
 require 'test_help'

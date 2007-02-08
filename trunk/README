@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+puts <<-README
+===========================
+ Nested Params Patch
+===========================
+This is a patch for Rails to enable passing nested parameters and arrays through the url_for method.
+
+For more information, check out http://kinderman.net/something_or_other
+
+Send questions or comments to: ryan (at) kinderman (dot) net.
+README
