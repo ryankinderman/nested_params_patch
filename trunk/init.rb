@@ -1,0 +1,1 @@
+Dir[File.join(File.dirname(__FILE__), 'lib/*')].each { |file| load file }
